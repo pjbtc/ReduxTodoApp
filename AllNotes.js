@@ -20,7 +20,7 @@ const AllNotes=({toggle_note,	 notes})=>{
 	
 }
 const mapStatetoProps=state=>({
-	notes: state.notes_reducer.notes
+	notes: state.notes
 
 })
 
